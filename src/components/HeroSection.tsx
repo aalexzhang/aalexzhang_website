@@ -7,7 +7,7 @@ import { ArrowDown } from "lucide-react";
 export function HeroSection() {
   return (
     <section className="relative py-20 md:py-32 flex items-center min-h-[calc(100vh-4rem)]">
-      <div className="container">
+      <div className="container flex flex-col md:flex-row items-center justify-between">
         <div className="max-w-3xl space-y-4">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight">
             Hi, I'm <span className="text-primary">Alex Zhang!</span>
@@ -28,8 +28,16 @@ export function HeroSection() {
             </Button>
           </div>
         </div>
-        
+
+        <div className="mt-8 md:mt-0 md:ml-8">
+          <img
+            src="/hero_section_image.jpg"
+            alt="Hero Image"
+            className="w-full max-w-sm rounded-lg shadow-lg"
+          />
+        </div>
       </div>
+
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 hidden md:block animate-bounce">
         <Button variant="ghost" size="icon" asChild>
           <Link href="/#projects">
