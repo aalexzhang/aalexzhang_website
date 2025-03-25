@@ -11,7 +11,7 @@ export function Footer() {
       <div className="container">
         <div className="flex flex-col md:flex-row justify-between gap-8">
           <div>
-            <h3 className="font-semibold text-lg mb-2">Portfolio</h3>
+            <h3 className="font-semibold text-lg mb-2">Alex Zhang</h3>
             <p className="text-muted-foreground max-w-md">
               A personal portfolio website showcasing my projects and skills. Feel free to get in touch!
             </p>
@@ -59,7 +59,7 @@ export function Footer() {
         </div>
         <Separator className="my-6" />
         <div className="text-sm text-muted-foreground">
-          © {currentYear} Portfolio. All rights reserved.
+          © {currentYear} Alex Zhang. All rights reserved.
         </div>
       </div>
     </footer>
