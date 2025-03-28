@@ -10,7 +10,7 @@ export const projects: Project[] = [
   },
   {
     id: "dealicious",
-    title: "Meal Planning and Budgeting App",
+    title: "Dealicious",
     description: "A full-stack web application that helps users generate personalized meal plans based on dietary preferences and available ingredients. Integrates the Spoonacular API to fetch recipes and nutritional information.",
     imageUrl: "/meal_planner.png",
     tags: ["Express.js", "React", "Render"],
@@ -19,7 +19,7 @@ export const projects: Project[] = [
   },
   {
     id: "travelai",
-    title: "Travel Itinerary AI Planner",
+    title: "TravelAI",
     description: "An AI-driven travel itinerary planner that customizes trip recommendations based on budget, destination, and travel preferences. Uses a LLM backend to generate dynamic travel plans and integrates real-time flight data.",
     imageUrl: "/travel_itinerary.png",
     tags: ["Flask", "React", "Perplexity", "Langchain"],
@@ -27,7 +27,7 @@ export const projects: Project[] = [
   },
   {
     id: "flairit",
-    title: "Reddit Flair Classifier",
+    title: "Flair-It",
     description: "A machine learning project that predicts Reddit post flairs using NLP techniques. Built a classification model using preprocessed text data and trained it on real Reddit posts to recommend appropriate flairs.",
     imageUrl: "/reddit_flairing_website.png",
     tags: ["RoBERTa", "Flask", "SQLAlchemy", "HTML"],
@@ -36,7 +36,7 @@ export const projects: Project[] = [
   },
   {
     id: "sprout",
-    title: "GPT Social Skills Chatbot",
+    title: "Sprout",
     description: "A web-based chatbot powered by OpenAI’s GPT-3.5, designed for simulating engaging social interactions for younger children. Created with the goal of helping children impacted by two years of online school due to the pandemic.",
     imageUrl: "/social_skills_chatbot.png",
     tags: ["GPT-3.5", "Chatbot", "Next.js", "React"],

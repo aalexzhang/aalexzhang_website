@@ -6,10 +6,20 @@ import { Mail, Phone, MapPin, Github, Linkedin, Twitter } from "lucide-react";
 import Link from "next/link";
 
 export function ContactSection() {
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // In a real implementation, you would handle the form submission here
-    alert("Message sent! (This is just a demo)");
+
+    const formData = new FormData(e.currentTarget);
+    const data = {
+      name: formData.get("name"),
+      email: formData.get("email"),
+      subject: formData.get("subject"),
+      message: formData.get("message"),
+    };
+
+    console.log(data);
+
+    e.currentTarget.reset();
   };
 
   return (
